@@ -17,6 +17,7 @@ const modalOpen = function () {
 };
 // a blank text
 //second blank text
+//third line of blank text
 for (let i = 0; i < btnsShowModal.length; i++)
   btnsShowModal[i].addEventListener(`click`, modalOpen);
 
