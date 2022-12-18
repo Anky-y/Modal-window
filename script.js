@@ -15,7 +15,7 @@ const modalOpen = function () {
   modal.classList.remove(`hidden`);
   overlay.classList.remove(`hidden`);
 };
-
+// a blank text
 for (let i = 0; i < btnsShowModal.length; i++)
   btnsShowModal[i].addEventListener(`click`, modalOpen);
 
